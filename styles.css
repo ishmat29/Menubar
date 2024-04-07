@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 1rem;
+}
+.site-title{
+    font-size: 3rem;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
